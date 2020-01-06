@@ -3,13 +3,21 @@
 
 
 /*---------------------------------------Colours*/
+.bg-color-navbar {
+    background-color: green;
+}
+
+/*---------------------------------------Special Margins, Texts, Paddings*/
 
 
-/*---------------------------------------Margins, Texts, Paddings*/
+/*---------------------------------------Headings*/
+.logo {
+    background: url(".../images/logo.jpg");
+}
 
-
-/*---------------------------------------Heading*/
-
+.navbar {
+    height: 150px;
+}
 
 /*---------------------------------------Images*/
 
