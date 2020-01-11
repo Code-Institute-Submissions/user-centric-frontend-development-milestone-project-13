@@ -4,7 +4,11 @@
 
 /*---------------------------------------Colours*/
 .bg-color-navbar {
-    background-color: green;
+    background-color: rgb(24, 48, 22);
+}
+
+.bg-color-footer {
+    background-color: rgb(56, 23, 15)
 }
 
 /*---------------------------------------Special Margins, Texts, Paddings*/
