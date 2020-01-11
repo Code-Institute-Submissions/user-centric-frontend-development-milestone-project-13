@@ -1,7 +1,35 @@
 /*---------------------------------------Font Links*/
 
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700&display=swap');
 
 
+/* Regular Text and Nav */
+/*
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,700&display=swap');
+font-family: 'Ibarra Real Nova', serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700&display=swap');
+/*font-family: 'Amiri', serif;
+
+
+
+/* Big Headings */
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+font-family: 'Fredericka the Great', cursive;
+*/
+
+body {
+    font-family: 'Amiri', serif;
+    
+}
+ 
+.navbar a {
+    font-family: 'Tangerine', cursive;
+    font: 50px;
+
+}
 /*---------------------------------------Colours*/
 .bg-color-navbar {
     background-color: rgb(24, 48, 22);
@@ -9,6 +37,18 @@
 
 .bg-color-footer {
     background-color: rgb(56, 23, 15)
+}
+
+.navbar a {
+    color:#fafafa;
+}
+
+.navbar-toggler {
+    color: pink;
+}
+
+footer, footer a {
+    color: #f1d578;
 }
 
 /*---------------------------------------Special Margins, Texts, Paddings*/
@@ -62,6 +102,7 @@
 
 #footer-details {
     padding: 20px;
+    font: 50px;
 }
 
 
