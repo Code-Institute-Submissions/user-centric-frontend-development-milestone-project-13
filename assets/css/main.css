@@ -1,8 +1,6 @@
 /*---------------------------------------Font Links*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,2000,300,400,500,600,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Tangerine:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,2000,300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amiri:400,700&display=swap');
 /*font-family: 'Amiri', serif;
 
@@ -13,7 +11,7 @@ font-family: 'Fredericka the Great', cursive;
 
 
 body {
-    font-family: 'Amiri', serif;  
+    font-family: "Roboto", sans-serif;
 }
  
 
@@ -30,7 +28,6 @@ nav a {
 
 .navbar {
     margin-bottom: 0;
-    
     border: 0;
     width: 100%;
     background-color: rgb(24, 48, 22);
@@ -44,7 +41,10 @@ nav a {
 
 .brand-name {
     vertical-align: middle;
-    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 7px;
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     padding: 0;
@@ -60,6 +60,11 @@ nav a {
     border-radius: 0.1rem;
 }
 
+.navbar-nav .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
 
 #navbarNavDropdown{
     background-color: rgb(24, 48, 22);
@@ -97,6 +102,9 @@ nav button {
 }
 
 /*---------------------------------------Parallax*/
+.parallax-container {
+    padding: 0px;
+}
 .parallax {
     width: 100%;
     margin: 0;
