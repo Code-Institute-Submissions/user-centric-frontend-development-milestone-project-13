@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-    color:#fafafa;
+    color: #f1d578b0;
 }
 
 .navbar {
@@ -57,7 +57,7 @@ nav a {
 }
 
 .navbar .navbar-toggler {
-    color:#fafafa;
+    color: #f1d578b0;
     border-radius: 0.1rem;
 }
 
@@ -78,7 +78,7 @@ nav a {
 }
 
 .dropdown-item {
-    color: #fafafa;
+    color: #f1d578b0;
 }
 
 
@@ -123,8 +123,8 @@ nav button {
 /*---------------------------------------Footer*/
 .footer-quote {
     vertical-align: middle;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
     font-family: 'Tangerine', cursive;
     font-size: 50px;
@@ -134,16 +134,40 @@ nav button {
 
 .footer-section-hr {
     text-align: center;
-    width: 85%;
+    width: 50%;
     height: 0.5px;
     background-color: #f1d578b0;
     margin-bottom: 30px;
+    padding-top: 0px;
+    border-top: 0px;
 }
 
 .footer-h5 {
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     padding-left: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-detail-hr{
+    width: 75%;
+    background-color: #f1d578b0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+.footer-detail-last{
+    margin-bottom: 20px;
 }
 .social-links {
     padding-bottom: 15px;
@@ -169,16 +193,80 @@ nav button {
     background: #e84610;
 }
 
-#footer-details {
-    padding: 20px;
-    font: 50px;
-}
 
 footer, footer a {
     color: #f1d578;
 }
 
 .bg-color-footer {
-    background-color: rgb(56, 23, 15)
+    background-color: rgb(24, 48, 22);
 }
 
+.journey-items {
+    font-size: 14px;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: auto;
+    position: relative;
+    border-left: 1px solid;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+}
+
+.journey-circle {
+    margin-top: 8px;
+    margin-left: 17px;
+    left: 11px;
+    padding-top: 10px;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 9px;
+    background: #f1d578;
+}
+
+/*
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding:0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0; 
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #f1d578b0;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+*/
