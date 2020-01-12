@@ -169,6 +169,30 @@ nav button {
 .footer-detail-last{
     margin-bottom: 20px;
 }
+
+.services-links{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.services-links i{
+    padding-right: 7px;
+    color: #f1d578de;
+    font-size: 15px;
+}
+
+.services-links a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+#fa-award {
+    padding-right: 11px;
+}
+
 .social-links {
     margin-left: 10px;
     padding-bottom: 15px;
@@ -239,4 +263,10 @@ footer, footer a {
     position: absolute;
     border-radius: 9px;
     background: #f1d578;
+}
+
+.journey-items:hover {
+    color: #fafafa;
+    text-decoration: none;
+    border-left: 1px solid #f1d578;
 }
