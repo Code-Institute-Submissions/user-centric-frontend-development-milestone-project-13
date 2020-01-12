@@ -253,6 +253,7 @@ footer, footer a {
 }
 
 .journey-circle {
+    z-index: 3;
     margin-top: 8px;
     margin-left: 17px;
     left: 11px;
@@ -269,4 +270,18 @@ footer, footer a {
     color: #fafafa;
     text-decoration: none;
     border-left: 1px solid #f1d578;
+}
+
+.journey-circle-active {
+    z-index: 3;
+    margin-top: 8px;
+    margin-left: 17px;
+    left: 10px;
+    padding-top: 10px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 11px;
+    background: green;
 }
