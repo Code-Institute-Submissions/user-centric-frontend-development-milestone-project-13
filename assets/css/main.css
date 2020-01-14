@@ -74,12 +74,14 @@ nav {
 .navbar .navbar-toggler {
     color: #f1d578e8;
     border-radius: 0.1rem;
+    text-shadow: 1px 1px 2px rgb(20, 43, 18);
 }
 
 .navbar-nav .nav-item {
     padding-left: 15px;
     padding-right: 15px;
     cursor: pointer;
+    text-shadow: 1px 1px 2px rgb(20, 43, 18);
 }
 
 #navbarNavDropdown{
@@ -104,6 +106,7 @@ nav {
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: rgb(255, 242, 210);
+    text-shadow: 1px 1px 2px rgb(20, 43, 18);
 }
 
 /*---------------------------------------Headings*/
@@ -279,8 +282,8 @@ p {
 }
 
 #fa-youtube {
-    padding-left: 5px;
-    padding-right: 12px;
+    padding-left: 4px;
+    padding-right: 13px;
     padding-bottom: 8px;
     padding-top: 10px;
 }
