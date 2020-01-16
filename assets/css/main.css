@@ -173,10 +173,22 @@ h1{
     /*color: rgb(24, 48, 22);*/
 }
 
+.feature-first-row {
+    background-color: rgb(255, 242, 210);
+    padding-top: 20px;
+}
 
 .feature-section {
     width: 80%;
+    background-color: rgb(255, 242, 210);
     }
+
+@media (min-width: 992px) {
+.feature-section{
+    max-width: 50%;
+}
+}
+
 
 .feature-section h2{
     color: rgb(80, 42, 7);
@@ -185,11 +197,13 @@ h1{
     letter-spacing: 2px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .feature-section p{
     color: rgb(80, 42, 7);
     font-size: 1.0rem;
+    font-weight: 500;
 }
 
 .feature-title{
@@ -213,6 +227,7 @@ h1{
 
 .feature-list li{
     margin-bottom: 10px;
+    margin-right: 30px;
 }
 
 @media (min-width: 768px) {
@@ -239,6 +254,12 @@ h1{
     margin-bottom: 20px;
     
 }
+.btn-light:hover {
+    color: rgb(129, 77, 28, 0.6);
+    background-color: rgb(129, 77, 28, 0.2);
+    border-color: rgb(129, 77, 28, 0.6);
+}
+
 
 .info
 p {
@@ -246,7 +267,6 @@ p {
     margin-top: 1rem;
     font-size: 20px;
     letter-spacing: 1px;
-
 }
 
 .btn--jum {
@@ -259,6 +279,16 @@ p {
 
 .paper {
     background-color: rgb(243, 223, 172);
+}
+
+.feature-section-hr {
+    text-align: center;
+    width: 50%;
+    height: 1px;
+    background-color: rgba(46, 95, 42, 0.808);
+    margin-bottom: 30px;
+    padding-top: 0px;
+    border-top: 1px;
 }
 /*---------------------------------------Footer*/
 .footer-quote {
