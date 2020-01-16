@@ -150,6 +150,13 @@ nav button {
     position: relative;
 }
 
+.info2 {
+    min-height: 500px;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.15);
+    position: relative;
+}
+
 .jumbotron {
     background-color: transparent;
     color: white;
