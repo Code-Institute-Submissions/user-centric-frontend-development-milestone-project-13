@@ -205,6 +205,7 @@ h1{
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .feature-section p{
@@ -347,6 +348,16 @@ h1{
     /*color: rgb(24, 48, 22);*/
 }
 
+.contact-details2 i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(129, 77, 28);
+    /*color: rgb(24, 48, 22);*/
+}
+
 /*
 .feature-first-row {
     background-color: rgb(255, 242, 210);
@@ -401,6 +412,7 @@ h1{
     color: rgb(80, 42, 7);
     padding-bottom: 5px;
     font-size: 1.1rem;
+    padding-left: 10px;
 
 }
 
@@ -541,6 +553,9 @@ p {
     border-top: 1px;
 }
 */
+.contact-details2{
+    background-color: rgb(255, 242, 210);
+}
 
 
 .form-container2{
