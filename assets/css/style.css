@@ -503,6 +503,8 @@ p {
  */
 
 .btn--con {
+    margin-top: 15px;
+    margin-bottom: 30px;
     color: #f1d578;
     text-shadow: 1px 1px 1px rgb(24, 48, 22); 
     background: linear-gradient(#1d5010, #0f2706);
@@ -540,6 +542,46 @@ p {
 }
 */
 
+
+.form-container2{
+    text-align: left;
+    color: rgb(29, 83, 25);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+    width: 80%
+}
+
+.contact-title2{
+    margin-top: 30px;
+    color: rgb(129, 77, 28);
+    font-weight: 600;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(129, 77, 28);
+    background-color: rgb(255, 242, 210, 0.8);
+    background-clip: padding-box;
+    border: 0.5px solid rgb(129, 77, 28);
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .2rem;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgb(129, 77, 28, 0.4);
+}
 
 
 
