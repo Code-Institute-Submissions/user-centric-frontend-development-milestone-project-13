@@ -162,6 +162,84 @@ h1{
     line-height: 1.5em;
     padding-right: 10px;
 }
+
+.features i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(129, 77, 28);
+    /*color: rgb(24, 48, 22);*/
+}
+
+
+.feature-section {
+    width: 80%;
+    }
+
+.feature-section h2{
+    color: rgb(80, 42, 7);
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feature-section p{
+    color: rgb(80, 42, 7);
+    font-size: 1.0rem;
+}
+
+.feature-title{
+    font-family: 'Tangerine', cursive;
+    color: rgb(80, 42, 7);
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.feature-list{
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgb(80, 42, 7);
+    padding-bottom: 5px;
+
+}
+
+.feature-list li{
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+.feature-list{
+    margin-left: 60px;
+}
+}
+
+@media (min-width: 992px) {
+.feature-list{
+    margin-left: 80px;
+}
+}
+
+
+.features .read-more-btn{
+    text-align: center;
+}
+
+.btn-light {
+    color: rgb(255, 242, 210);
+    background-color: rgb(129, 77, 28, 0.6);
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
 .info
 p {
     font-weight: 400;
