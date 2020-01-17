@@ -162,6 +162,7 @@ nav button {
     color: rgb(255, 242, 210);
     font-weight: 300;
     text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
 }
  
 h1{
