@@ -299,46 +299,12 @@ p {
     padding-top: 0px;
     border-top: 1px;
 }
+
+.feature-section-p{
+    margin-bottom: 30px;
+}
 /*---------------------------------------Contact*/
-/*
-.parallax-container {
-    padding: 0px;
-}
-.parallax {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    min-height: 500px;
-    background: transparent;
-}
 
-.info {
-    min-height: 500px;
-    z-index: 2;
-    background-color: rgba(0,0,0,0.35);
-    position: relative;
-}
-
-.info2 {
-    min-height: 500px;
-    z-index: 2;
-    background-color: rgba(0,0,0,0.15);
-    position: relative;
-}
-
-.jumbotron {
-    background-color: transparent;
-    color: white;
-    font-weight: 300;
-    text-shadow: 2px 2px 5px black; 
-}
- 
-h1{
-    font-weight: 400;
-    line-height: 1.5em;
-    padding-right: 10px;
-}
- */
 .contact-details i{
     font-size: 45px;
     margin-top: 40px;
@@ -356,43 +322,9 @@ h1{
     line-height: 30px;
     text-align: center;
     color: rgb(129, 77, 28);
-    /*color: rgb(24, 48, 22);*/
-}
-
-/*
-.feature-first-row {
-    background-color: rgb(255, 242, 210);
-    padding-top: 20px;
-}
-
-.feature-section {
-    width: 80%;
-    background-color: rgb(255, 242, 210);
-    }
-
-@media (min-width: 992px) {
-.feature-section{
-    max-width: 50%;
-}
 }
 
 
-.feature-section h2{
-    color: rgb(80, 42, 7);
-    font-family: 'Tangerine', cursive;
-    font-size: 45px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.feature-section p{
-    color: rgb(80, 42, 7);
-    font-size: 1.0rem;
-    font-weight: 500;
-}
-*/
 .contact-details-title{
     font-family: 'Tangerine', cursive;
     color: rgb(80, 42, 7);
@@ -486,35 +418,6 @@ label {
   color: rgb(129, 77, 28, 0.65);
 }
 
-
-/*
-.features .read-more-btn{
-    text-align: center;
-}
-
-.btn-light {
-    color: rgb(255, 242, 210);
-    background-color: rgb(129, 77, 28, 0.6);
-    border: none;
-    margin-bottom: 20px;
-    
-}
-.btn-light:hover {
-    color: rgb(129, 77, 28, 0.6);
-    background-color: rgb(129, 77, 28, 0.2);
-    border-color: rgb(129, 77, 28, 0.6);
-}
-
-
-.info
-p {
-    font-weight: 400;
-    margin-top: 1rem;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
- */
-
 .btn--con {
     margin-top: 15px;
     margin-bottom: 30px;
@@ -539,21 +442,6 @@ p {
 ;
 }
 
-/*
-.paper {
-    background-color: rgb(243, 223, 172);
-}
-
-.feature-section-hr {
-    text-align: center;
-    width: 50%;
-    height: 1px;
-    background-color: rgba(46, 95, 42, 0.808);
-    margin-bottom: 30px;
-    padding-top: 0px;
-    border-top: 1px;
-}
-*/
 .contact-details2{
     background-color: rgb(255, 242, 210);
 }
@@ -599,8 +487,99 @@ label {
   color: rgb(129, 77, 28, 0.4);
 }
 
+/*---------------------------------------FAQ*/
+
+.faqh1 {
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: ;
+    margin-top: 50px;
+}
+
+.faqh1hyp{
+}
+
+.faqh1ser{
+}
+
+.faq-feature-section {
+    width: 90%;
+    background-color: rgb(255, 242, 210);
+    }
+
+@media (min-width: 992px) {
+.faq-feature-section{
+    max-width: 65%;
+}
+}
 
 
+.faq-feature-section h2{
+    color: rgb(80, 42, 7);
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.faq-feature-section p{
+    color: rgb(80, 42, 7);
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.faqcard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border-radius: .25rem; */
+}
+
+.faq-btn-link {
+    font-weight: 500;
+    color: rgb(29, 83, 25);
+    text-decoration: none;
+    font-size: 1.15rem;
+    text-align: left;
+}
+
+.btn:hover {
+    color: rgb(129, 77, 28);
+    text-decoration: none;
+}
+
+.faqcard-header {
+    padding: .3rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(129, 77, 28, .05);
+    border-bottom: 1px solid rgb(129, 77, 28, .2);
+}
+
+.faqcard-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.faqcard-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    font-size: 1.1rem;
+}
+
+#accordion {
+    margin-bottom: 30px;
+}
 /*---------------------------------------Footer*/
 .footer-quote {
     vertical-align: middle;
