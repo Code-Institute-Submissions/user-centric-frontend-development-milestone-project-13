@@ -497,6 +497,7 @@ label {
 }
 
 .faqh1hyp{
+    font-size: 45px;
 }
 
 .faqh1ser{
@@ -579,6 +580,37 @@ label {
 
 #accordion {
     margin-bottom: 30px;
+}
+
+/*---------------------------------------FAQ-Services*/
+.services-sm {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
+}
+
+.services-md {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
+
+}
+
+.faqh2ser-sm {
+    font-size: 100px;
+    margin-top: 120px;
+}
+
+.faqh2ser-md {
+    font-size: 120px;
+    margin-top: 120px;
+    text-align: left;
 }
 /*---------------------------------------Footer*/
 .footer-quote {
