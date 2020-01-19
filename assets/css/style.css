@@ -493,6 +493,229 @@ label {
   color: rgb(129, 77, 28, 0.4);
 }
 
+/*---------------------------------------About*/
+.about-sm {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
+}
+
+
+.about-md {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
+
+}
+
+.abouth1-sm {
+    font-size: 70px;
+    margin-top: 90px;
+    line-height: 55px;
+}
+
+.about-more-line-h-sm {
+    line-height: 110px;
+}
+
+.abouth1-md {
+    font-size: 90px;
+    margin-top: 70px;
+    text-align: left;
+    line-height: 80px;
+}
+
+.about-smaller-font-sm {
+    font-size: 60px;
+}
+
+.about-smaller-font-md {
+    font-size: 75px;
+}
+
+.about-lg {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
+
+}
+
+.abouth1-lg {
+    font-size: 110px;
+    margin-top: 75px;
+    text-align: left;
+    line-height: 90px;
+}
+
+
+.about-smaller-font-lg {
+    font-size: 85px;
+}
+
+.about-first-row {
+    /*background-color: rgb(255, 242, 210);*/
+    padding-top: 20px;
+}
+
+
+.about-section {
+    width: 80%;
+    /*background-color: rgb(255, 242, 210);*/
+    }
+
+
+@media (min-width: 992px) {
+.about-section{
+    max-width: 50%;
+}
+}
+
+
+.about-section h2{
+    /*color: rgb(80, 42, 7);*/
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about-section h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    /*color: rgb(45, 90, 41);*/
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
+}
+
+.about-p{
+    /*color: rgb(80, 42, 7);*/
+    font-family: "Roboto", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.about-section-hr {
+    text-align: center;
+    width: 50%;
+    height: 1px;
+    /*background-color: rgba(46, 95, 42, 0.808);*/
+    margin-bottom: 10px;
+    padding-top: 0px;
+    border-top: 1px;
+}
+
+#what-we-are{
+    background-color: rgb(255, 242, 210);
+}
+
+
+#what-we-are .about-section-hr{
+    background-color: rgba(46, 95, 42, 0.808);
+}
+
+#what-we-are .about-section h2{
+    color: rgb(80, 42, 7);
+}
+
+#what-we-are .about-section h3{
+    color: rgb(45, 90, 41);
+}
+
+#what-we-are .about-p{
+    color: rgb(80, 42, 7);
+}
+
+/*---------------------------------------About-Why*/
+
+#why-we-are{
+    background-color: rgb(255, 242, 210);
+}
+
+
+#why-we-are .about-section-hr{
+    background-color: rgba(46, 95, 42, 0.808);
+}
+
+#why-we-are .about-section h2{
+    color: rgb(80, 42, 7);
+}
+
+#why-we-are .about-section h3{
+    color: rgb(45, 90, 41);
+}
+
+#why-we-are .about-p{
+    color: rgb(80, 42, 7);
+}
+
+/*---------------------------------------About-How*/
+
+#how-we-are{
+    background-color: rgb(255, 242, 210);
+}
+
+
+#how-we-are .about-section-hr{
+    background-color: rgba(46, 95, 42, 0.808);
+}
+
+#how-we-are .about-section h2{
+    color: rgb(80, 42, 7);
+}
+
+#how-we-are .about-section h3{
+    color: rgb(45, 90, 41);
+}
+
+#how-we-are .about-p{
+    color: rgb(80, 42, 7);
+}
+
+/*---------------------------------------About-Who*/
+
+#who-we-are{
+    background-color: rgb(255, 242, 210);
+}
+
+
+#who-we-are .about-section-hr{
+    background-color: rgba(46, 95, 42, 0.808);
+}
+
+#who-we-are .about-section h2{
+    color: rgb(80, 42, 7);
+}
+
+#who-we-are .about-section h3{
+    color: rgb(45, 90, 41);
+}
+
+#who-we-are .about-p{
+    color: rgb(80, 42, 7);
+}
+
+
 /*---------------------------------------FAQ*/
 .hypnotherapy-sm {
     font-family: 'Tangerine', cursive;
@@ -508,7 +731,7 @@ label {
     background-color: transparent;
     color: rgb(255, 242, 210);
     font-weight: 300;
-    text-shadow: 1px 1px 2px black; 
+    text-shadow: 2px 2px 5px black; 
     margin-bottom: 0px;
 
 }
