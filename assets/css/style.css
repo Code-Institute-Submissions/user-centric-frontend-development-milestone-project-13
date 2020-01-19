@@ -624,6 +624,9 @@ label {
     text-align: left;
 }
 
+#faqhpnocollapse{
+    z-index:1;
+}
 
 /*---------------------------------------Footer*/
 .footer-quote {
