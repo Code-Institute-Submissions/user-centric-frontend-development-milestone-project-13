@@ -35,6 +35,7 @@ nav {
     border: 0;
     width: 100%;
     background-color: rgb(24, 48, 22);
+    z-index:6;
 }
 
 .navbar-brand .logo-image {
@@ -82,13 +83,16 @@ nav {
     padding-right: 15px;
     cursor: pointer;
     text-shadow: 1px 1px 2px rgb(20, 43, 18);
+    z-index: 6;
 }
 
 #navbarNavDropdown{
     background-color: rgb(24, 48, 22);
-    z-index: 0;
 }
 
+#navoverdrop{
+    z-index: 6;
+}
 .dropdown-menu {
    background-color: rgb(24, 48, 22);
    border: none;
@@ -96,6 +100,7 @@ nav {
 
 .dropdown-item {
     color: #f1d578e8;
+    z-index: 5;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
