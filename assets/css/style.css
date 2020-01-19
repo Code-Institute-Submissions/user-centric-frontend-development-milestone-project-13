@@ -610,7 +610,7 @@ label {
     font-size: 1.0rem;
     font-weight: 400;
     letter-spacing: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     margin-top: 0px;
     text-align: left;
 }
@@ -846,6 +846,7 @@ label {
     z-index:1;
 }
 
+
 /*---------------------------------------FAQ-Services*/
 .services-sm {
     font-family: 'Tangerine', cursive;
@@ -876,6 +877,266 @@ label {
     margin-top: 120px;
     text-align: left;
 }
+
+/*
+.faqservices-title{
+    font-family: 'Tangerine', cursive;
+    color: rgb(80, 42, 7);
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.faqservices-list{
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgb(80, 42, 7);
+    padding-bottom: 5px;
+
+}
+
+.faqservices-list li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+.faqservices-list{
+    margin-left: 60px;
+}
+}
+
+@media (min-width: 992px) {
+.faqservices-list{
+    margin-left: 80px;
+}
+}
+
+ .faqservices i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(129, 77, 28);
+    /*color: rgb(24, 48, 22);
+}
+
+/*---------------------------------------FAQ-Learning*/
+
+#learning-blocks .faqservices-title{
+    font-family: 'Tangerine', cursive;
+    color: rgb(80, 42, 7);
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#learning-blocks .faqservices-list{
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgb(80, 42, 7);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+#learning-blocks .faqservices-list li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+#learning-blocks .faqservices-list{
+    margin-left: 60px;
+}
+}
+
+@media (min-width: 992px) {
+#learning-blocks .faqservices-list{
+    margin-left: 80px;
+}
+}
+
+#learning-blocks .faqservices i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(129, 77, 28);
+    /*color: rgb(24, 48, 22);*/
+}
+ 
+ 
+ 
+ #learning-blocks .faqservices i{
+    color: rgb(129, 77, 28);
+ }
+
+/*---------------------------------------FAQ-Creative*/
+
+#creative-blocks{
+    background-color: rgb(24, 48, 22);
+} 
+
+#creative-blocks .faqservices-title{
+    font-family: 'Tangerine', cursive;
+    color: rgb(243, 223, 172);
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#creative-blocks .faqservices-list{
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgb(243, 223, 172);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+#creative-blocks .faqservices-list li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+#creative-blocks .faqservices-list{
+    margin-left: 60px;
+}
+}
+
+@media (min-width: 992px) {
+#creative-blocks .faqservices-list{
+    margin-left: 80px;
+}
+}
+
+#creative-blocks .faqservices i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(243, 223, 172);
+    /*color: rgb(24, 48, 22);*/
+}
+ 
+/*---------------------------------------FAQ-Confidence*/
+
+#confidence-building{
+    background-color: rgb(129, 77, 28);;
+}
+
+#confidence-building .faqservices-title{
+    font-family: 'Tangerine', cursive;
+    color: rgb(255, 242, 210);
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#confidence-building .faqservices-list{
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgb(255, 242, 210);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+#confidence-building .faqservices-list li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+#confidence-building .faqservices-list{
+    margin-left: 60px;
+}
+}
+
+@media (min-width: 992px) {
+#confidence-building .faqservices-list{
+    margin-left: 80px;
+}
+}
+
+#confidence-building .faqservices i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    text-align: center;
+    color: #f1d578;
+    /*color: rgb(24, 48, 22);*/
+}
+ 
+  
+/*---------------------------------------FAQ-Phobias-Habits*/
+#phobias-habits{
+    background-color: rgb(243, 223, 172);
+}
+
+#phobias-habits .faqservices-title{
+    font-family: 'Tangerine', cursive;
+    color: rgb(24, 48, 22);
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#phobias-habits .faqservices-list{
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgb(24, 48, 22);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+
+}
+
+#phobias-habits .faqservices-list li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+#phobias-habits .faqservices-list{
+    margin-left: 60px;
+}
+}
+
+@media (min-width: 992px) {
+#phobias-habits .faqservices-list{
+    margin-left: 80px;
+}
+}
+
+#phobias-habits .faqservices i{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(24, 48, 22, 0.85);
+    /*color: rgb(24, 48, 22);*/
+}
+ 
+ 
 
 /*---------------------------------------Footer*/
 .footer-quote {
