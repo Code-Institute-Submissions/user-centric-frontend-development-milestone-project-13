@@ -586,11 +586,10 @@ label {
 
 #accordion {
     margin-bottom: 30px;
-
 }
 
 #faqhpnocollapse {
-    z-index:-3;
+    z-index:1;
 }
 
 /*---------------------------------------FAQ-Services*/
@@ -622,10 +621,6 @@ label {
     font-size: 120px;
     margin-top: 120px;
     text-align: left;
-}
-
-#faqhpnocollapse{
-    z-index:1;
 }
 
 /*---------------------------------------Footer*/
