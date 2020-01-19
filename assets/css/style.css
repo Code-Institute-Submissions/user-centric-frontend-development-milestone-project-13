@@ -162,6 +162,7 @@ nav button {
     position: relative;
 }
 
+
 .jumbotron {
     background-color: transparent;
     color: rgb(255, 242, 210);
@@ -493,6 +494,36 @@ label {
 }
 
 /*---------------------------------------FAQ*/
+.hypnotherapy-sm {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 2px 2px 5px black; 
+    margin-bottom: 0px;
+}
+
+.hypnotherapy-md {
+    font-family: 'Tangerine', cursive;
+    background-color: transparent;
+    color: rgb(255, 242, 210);
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black; 
+    margin-bottom: 0px;
+
+}
+
+.faqh1hyp-sm {
+    font-size: 80px;
+    margin-top: 120px;
+}
+
+.faqh1hyp-md {
+    font-size: 120px;
+    margin-top: 90px;
+    text-align: left;
+}
+
 
 .faqh1 {
     font-weight: 500;
