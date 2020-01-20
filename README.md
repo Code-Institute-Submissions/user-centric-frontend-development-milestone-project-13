@@ -96,7 +96,7 @@ Finally the Contact page completes the user's journey, with contact information,
 options to sign up for a newsletter.
 
 ## Features
-### Current Featurs
+### Current Features
 About page - Explains the background of the business, including Aims and Philosophies
 FAQ page - Hypnotherapy section addresses concerns regarding hypnotherapy
 FAQ page - Services - Gives the user more information on the structure of the services provided
@@ -120,16 +120,42 @@ until later if the page was reloaded after a while.
 
 ## Testing
 The css stylesheet was inputted directly into the W3C CSS validator and approved. All pages - index.html, about.html,
-faq.html and contact.html - were inputted directly into the W3C Markup validator and all four pages were apporved.
+faq.html and contact.html - were inputted directly into the W3C Markup validator. Errors and warnings for each page 
+were addressed and then the page was rechecked through the validator. The process was repeated until no warning remained.
+All four html files and the css stylesheet have been validated.
 
 Manual testing was carried out on all the links on every page - all links in the footers and the navbars.
 The read more and sign-up buttons were all checked as well. 
 
 The collapse feature on the FAQ page resulted in a bug being identified, however, it was not possible to rectify it.
 
-The website was inspected using Google Chrome Dev Tools to view it on mobile and tablet versions. Each pages was viewed
-and in these views.
+The website was inspected using Google Chrome Dev Tools to view it on mobile and tablet versions. Each page was viewed
+and tested in these views.
 
+## Deployment of Website
+This webiste was developed using gitpod and stored in repositories on Github. Gitpod was installed as an extension
+tool on google Chrome, which was accessed then via the projet's repository page on Github. This allowed for 
+regular version control updates:
+1. git add . was enter into the command line interface to add files to the staging area.
+2. git commit -m "" committed the files to the repository.
+3. git push -u origin master pushed them to the master branch.
+ 
+
+The website was deployed using Github Pages. To do this, while in the github webpages of the project repository, 
+I accessed the Settings Tab. Under the GitHub pPages sections further down the page, is the option to choose Source.
+I switched the default option of none to master branch. Then I retrieved the provided link to my deployed website.
+
+Link to Deployed Website:
+https://erikan-ir.github.io/user-centric-frontend-development-milestone-project/.
+
+To run the project locally:
+1. Follow the link below to the project's Github repository page.
+2. Click on Clone or Download.
+3. Copy the link provided.
+4. Enter git clone into the command line interface.
+5. Paste in the copied link and press enter.
+
+## Credit
 
 (https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
 
