@@ -176,7 +176,7 @@ h1{
     line-height: 1.5em;
     padding-right: 10px;
 }
-
+/*--some features code from Code Institute Whiskey drop Tutorial-----*/
 .features i{
     font-size: 45px;
     margin-top: 40px;
@@ -275,6 +275,7 @@ h1{
     border-color: rgb(129, 77, 28, 0.6);
 }
 
+/*--some features code from Code Institute Whiskey drop Tutorial-----*/
 
 .info
 p {
