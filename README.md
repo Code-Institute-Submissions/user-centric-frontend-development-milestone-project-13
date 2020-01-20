@@ -136,7 +136,7 @@ and tested in these views.
 This webiste was developed using gitpod and stored in repositories on Github. Gitpod was installed as an extension
 tool on google Chrome, which was accessed then via the projet's repository page on Github. This allowed for 
 regular version control updates:
-1. git add . was enter into the command line interface to add files to the staging area.
+1. git add . was entered into the command line interface to add files to the staging area.
 2. git commit -m "" committed the files to the repository.
 3. git push -u origin master pushed them to the master branch.
  
@@ -155,9 +155,29 @@ To run the project locally:
 4. Enter git clone into the command line interface.
 5. Paste in the copied link and press enter.
 
-## Credit
+## Technology
+1. GitHub was where the files were stored.
+2. Gitpod was the editing environment used to create and edit files.
+3. [Bootstrap 4](https://getbootstrap.com/) was used for navbar and for its grid system to improve responsive design.
+4. [Font awesome](https://fontawesome.com/) was used to provide icons.
+5. The parallax effect used js code from the following [source](http://pixelcog.github.io/parallax.js/).
+6. The photos were taken using a Oneplus 6T phone and edited using the phone's build-in photo software.
+7. [Google Fonts](https://fonts.google.com/) was used to provide the fonts.
+8. [Coolors](https://coolors.co/) was used to generate a color palette.
+9. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file.
+10.[W3C Markup Validator](https://validator.w3.org/) was used to validate the following files: index.html, about.html, faq.html and contact.html.
+11.[HTML Fromatter](https://www.freeformatter.com/html-formatter.html) was used to format the following files: index.html, about.html, faq.html and contact.html.
 
-(https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
+
+## Credit
+- Thanks to Reuben Ferrante for advising as mentor on this project and to Eoin Brennan for providing the logo file.
+- Inspiration for the use of paralax effect came from the [sample project](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) on the Code Institute website.
+- The implementation and link to the source of the js code for the parallax was guided by the [youtube tutorial](https://www.youtube.com/watch?v=d34GsFz-HkY&t=609s) by [iEatWebsites](https://www.youtube.com/channel/UC0o60y3FtVy3M93JcDFVreA).
+- The code used in the construction of the navbar was obtained from the Code Institute "Whiskey Drop" tutorials.
+- The code used to style the social links in the footer of all the webpages, came from Code Institute's mini-bootstrap (resume project) tutorial.
+- The inspiration for and part of the code used for the timeline/navigation feature in the footer came from Code Institute's mini-bootstrap (resume project) tutorial.
+- The css code structure for the jumbotron and contact form buttons were modelled on the [Facebook](https://www.facebook.com/) Sign up button (for the 3D effect).
+
 
 
 
@@ -171,5 +191,4 @@ Colour Palette
 Photos - taken and edited
 Logo - Eoin Brennan
 Parallax - example and
-https://jigsaw.w3.org/css-validator/validator
-https://validator.w3.org/
+
