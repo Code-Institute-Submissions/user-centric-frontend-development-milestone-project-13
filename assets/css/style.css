@@ -440,7 +440,7 @@ label {
     padding-top: 0px;
     padding-bottom: 0px;
     padding-right: 18px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .btn--con:hover {
@@ -751,7 +751,6 @@ label {
 .faqh1 {
     font-weight: 500;
     font-size: 50px;
-    letter-spacing: ;
     margin-top: 50px;
 }
 
